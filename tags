@@ -4,10 +4,13 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-Album	AccessDatabase.go	/^type Album struct {$/;"	t
-albumsByArtist	AccessDatabase.go	/^func albumsByArtist(name string) ([]Album, error) {$/;"	f
-db	AccessDatabase.go	/^var db *sql.DB$/;"	v
-main	AccessDatabase.go	/^func main() {$/;"	f
-main	AccessDatabase.go	/^package main$/;"	p
+Album	lesson2/main.go	/^type Album struct {$/;"	t
+album	lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	t
+album.artist	lesson2/create-tables.sql	/^  title      VARCHAR(128) NOT NULL,$/;"	F
+album.id	lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	F
+album.price	lesson2/create-tables.sql	/^  artist     VARCHAR(255) NOT NULL,$/;"	F
+album.title	lesson2/create-tables.sql	/^  id         INT AUTO_INCREMENT NOT NULL,$/;"	F
+albumsByArtist	lesson2/main.go	/^func albumsByArtist(name string) ([]Album, error) {$/;"	f
+db	lesson2/main.go	/^var db *sql.DB$/;"	v
 main	lesson2/main.go	/^func main() {$/;"	f
 main	lesson2/main.go	/^package main$/;"	p
