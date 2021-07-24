@@ -61,7 +61,27 @@ func albumsByArtist(name string) ([]Album, error) {
 		albums = append(albums, alb)
 	}
 	if err := rows.Err(); err != nil {
-		return nil, fmt.Errorf("albumsByArtist %q: %v", name, err)
+		err = TheNewError{}.Wrap(err, "error encountered during iteration ")
+		return nil, err
 	}
 	return albums, nil
+}
+
+type TheNewError struct {
+	oldError  error
+	errString string
+}
+
+func (e TheNewError) Wrap(err error, comment string) error {
+	e.oldError = err
+	e.errString = comment
+	return e
+}
+
+func (e TheNewError) Unwrap() error {
+	return e.oldError
+}
+
+func (e TheNewError) Error() string {
+	return fmt.Sprintf("%v: %v", e.errString, e.oldError)
 }

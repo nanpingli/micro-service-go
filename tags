@@ -5,6 +5,10 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 Album	lesson2/query.go	/^type Album struct {$/;"	t
+Error	lesson2/query.go	/^func (e TheNewError) Error() string {$/;"	f
+TheNewError	lesson2/query.go	/^type TheNewError struct {$/;"	t
+Unwrap	lesson2/query.go	/^func (e TheNewError) Unwrap() error {$/;"	f
+Wrap	lesson2/query.go	/^func (e TheNewError) Wrap(err error, comment string) error {$/;"	f
 album	lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	t
 album.artist	lesson2/create-tables.sql	/^  title      VARCHAR(128) NOT NULL,$/;"	F
 album.id	lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	F
@@ -13,5 +17,6 @@ album.title	lesson2/create-tables.sql	/^  id         INT AUTO_INCREMENT NOT NULL
 albumsByArtist	lesson2/query.go	/^func albumsByArtist(name string) ([]Album, error) {$/;"	f
 db	lesson2/query.go	/^var db *sql.DB$/;"	v
 getHandle	lesson2/query.go	/^func getHandle() {$/;"	f
+main	lesson2/main.go	/^func main() {$/;"	f
 main	lesson2/main.go	/^package main$/;"	p
 main	lesson2/query.go	/^package main$/;"	p
