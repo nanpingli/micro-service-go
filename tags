@@ -9,6 +9,7 @@ Error	lesson2/query.go	/^func (e TheNewError) Error() string {$/;"	f
 TheNewError	lesson2/query.go	/^type TheNewError struct {$/;"	t
 Unwrap	lesson2/query.go	/^func (e TheNewError) Unwrap() error {$/;"	f
 Wrap	lesson2/query.go	/^func (e TheNewError) Wrap(err error, comment string) error {$/;"	f
+addAlbum	lesson2/query.go	/^func addAlbum(alb Album) (int64, error) {$/;"	f
 album	lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	t
 album.artist	lesson2/create-tables.sql	/^  title      VARCHAR(128) NOT NULL,$/;"	F
 album.id	lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	F
