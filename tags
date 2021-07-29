@@ -14,6 +14,7 @@ album.artist	lesson2/create-tables.sql	/^  title      VARCHAR(128) NOT NULL,$/;"
 album.id	lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	F
 album.price	lesson2/create-tables.sql	/^  artist     VARCHAR(255) NOT NULL,$/;"	F
 album.title	lesson2/create-tables.sql	/^  id         INT AUTO_INCREMENT NOT NULL,$/;"	F
+albumByID	lesson2/query.go	/^func albumByID(id int64) (Album, error) {$/;"	f
 albumsByArtist	lesson2/query.go	/^func albumsByArtist(name string) ([]Album, error) {$/;"	f
 db	lesson2/query.go	/^var db *sql.DB$/;"	v
 getHandle	lesson2/query.go	/^func getHandle() {$/;"	f

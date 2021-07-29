@@ -21,4 +21,11 @@ func main() {
 	}
 	fmt.Printf("Albums found: %v\n", albums)
 
+	// Hard-code ID 2 here to test the query.
+	alb, err := albumByID(2)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Printf("Album found: %v\n", alb)
+
 }
