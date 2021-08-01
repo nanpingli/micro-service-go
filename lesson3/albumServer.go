@@ -26,13 +26,15 @@ func getAlbums(c *gin.Context) {
 	c.IndentedJSON(http.StatusOK, albums)
 }
 
-func albumServer() {
+//     router will attach to server handler
+func album_server() {
 	router := gin.Default()
 	router.GET("/albums", getAlbums)
 	router.GET("/albums/:id", getAlbumByID)
 	router.POST("/albums", postAlbums)
 
-	router.Run("localhost:8088")
+	router.Run("localhost:8080")
+
 }
 
 // postAlbums adds an album from JSON received in the request body.

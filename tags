@@ -22,7 +22,7 @@ album.id	lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	F
 album.price	lesson2/create-tables.sql	/^  artist     VARCHAR(255) NOT NULL,$/;"	F
 album.title	lesson2/create-tables.sql	/^  id         INT AUTO_INCREMENT NOT NULL,$/;"	F
 albumByID	lesson2/query.go	/^func albumByID(id int64) (Album, error) {$/;"	f
-albumServer	lesson3/albumServer.go	/^func albumServer() {$/;"	f
+album_server	lesson3/albumServer.go	/^func album_server() {$/;"	f
 albums	lesson3/albumServer.go	/^var albums = []album{$/;"	v
 albumsByArtist	lesson2/query.go	/^func albumsByArtist(name string) ([]Album, error) {$/;"	f
 db	lesson2/query.go	/^var db *sql.DB$/;"	v

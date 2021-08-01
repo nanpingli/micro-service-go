@@ -14,6 +14,9 @@ import (
 	"golang.org/x/sync/errgroup"
 )
 
+// Address already in use的解决方法
+//https://zhuanlan.zhihu.com/p/87479928
+
 func main() {
 	g, ctx := errgroup.WithContext(context.Background())
 
@@ -41,6 +44,8 @@ func main() {
 		return server.ListenAndServe()
 	})
 
+	//	g.Go(albumServer)
+
 	// g2
 	// g2 退出了所有的协程都能退出么？
 	// g2 退出时，调用了 shutdown，g1 会退出
@@ -63,11 +68,7 @@ func main() {
 	})
 
 	// g3
-	// g3 捕获到 os 退出信号将会退出
-	// g3 退出了所有的协程都能退出么？
-	// g3 退出后, context 将不再阻塞，g2 会随之退出
-	// g2 退出时，调用了 shutdown，g1 会退出
-	// 然后 main 函数中的 g.Wait() 退出，所有协程都会退出
+	// g3 注册和处理 linux signal
 	g.Go(func() error {
 		quit := make(chan os.Signal, 0)
 		signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
