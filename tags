@@ -6,8 +6,13 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 Album	lesson2/query.go	/^type Album struct {$/;"	t
 Error	lesson2/query.go	/^func (e TheNewError) Error() string {$/;"	f
+Image	lesson3/parallize.go	/^	Image = fakeSearch("image")$/;"	v
+Result	lesson3/parallize.go	/^type Result string$/;"	t
+Search	lesson3/parallize.go	/^type Search func(ctx context.Context, query string) (Result, error)$/;"	t
 TheNewError	lesson2/query.go	/^type TheNewError struct {$/;"	t
 Unwrap	lesson2/query.go	/^func (e TheNewError) Unwrap() error {$/;"	f
+Video	lesson3/parallize.go	/^	Video = fakeSearch("video")$/;"	v
+Web	lesson3/parallize.go	/^	Web   = fakeSearch("web")$/;"	v
 Wrap	lesson2/query.go	/^func (e TheNewError) Wrap(err error, comment string) error {$/;"	f
 addAlbum	lesson2/query.go	/^func addAlbum(alb Album) (int64, error) {$/;"	f
 album	lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	t
@@ -18,7 +23,12 @@ album.title	lesson2/create-tables.sql	/^  id         INT AUTO_INCREMENT NOT NULL
 albumByID	lesson2/query.go	/^func albumByID(id int64) (Album, error) {$/;"	f
 albumsByArtist	lesson2/query.go	/^func albumsByArtist(name string) ([]Album, error) {$/;"	f
 db	lesson2/query.go	/^var db *sql.DB$/;"	v
+fakeSearch	lesson3/parallize.go	/^func fakeSearch(kind string) Search {$/;"	f
 getHandle	lesson2/query.go	/^func getHandle() {$/;"	f
 main	lesson2/main.go	/^func main() {$/;"	f
 main	lesson2/main.go	/^package main$/;"	p
 main	lesson2/query.go	/^package main$/;"	p
+main	lesson3/main.go	/^func main() {$/;"	f
+main	lesson3/main.go	/^package main$/;"	p
+main	lesson3/parallize.go	/^package main$/;"	p
+parallize	lesson3/parallize.go	/^func parallize() {$/;"	f
