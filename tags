@@ -4,44 +4,44 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-Album	/home/zhouxinchi/go/src/micro-service-go/lesson2/query.go	/^type Album struct {$/;"	t
-Error	/home/zhouxinchi/go/src/micro-service-go/lesson2/query.go	/^func (e TheNewError) Error() string {$/;"	f
-Image	/home/zhouxinchi/go/src/micro-service-go/lesson3/parallize.go	/^	Image = fakeSearch("image")$/;"	v
-QR	/home/zhouxinchi/go/src/micro-service-go/lesson3/reserver.go	/^func QR(w http.ResponseWriter, req *http.Request) {$/;"	f
-QRServer	/home/zhouxinchi/go/src/micro-service-go/lesson3/reserver.go	/^func QRServer() {$/;"	f
-Result	/home/zhouxinchi/go/src/micro-service-go/lesson3/parallize.go	/^type Result string$/;"	t
-Search	/home/zhouxinchi/go/src/micro-service-go/lesson3/parallize.go	/^type Search func(ctx context.Context, query string) (Result, error)$/;"	t
-TheNewError	/home/zhouxinchi/go/src/micro-service-go/lesson2/query.go	/^type TheNewError struct {$/;"	t
-Unwrap	/home/zhouxinchi/go/src/micro-service-go/lesson2/query.go	/^func (e TheNewError) Unwrap() error {$/;"	f
-Video	/home/zhouxinchi/go/src/micro-service-go/lesson3/parallize.go	/^	Video = fakeSearch("video")$/;"	v
-Web	/home/zhouxinchi/go/src/micro-service-go/lesson3/parallize.go	/^	Web   = fakeSearch("web")$/;"	v
-Wrap	/home/zhouxinchi/go/src/micro-service-go/lesson2/query.go	/^func (e TheNewError) Wrap(err error, comment string) error {$/;"	f
-addAlbum	/home/zhouxinchi/go/src/micro-service-go/lesson2/query.go	/^func addAlbum(alb Album) (int64, error) {$/;"	f
-addr	/home/zhouxinchi/go/src/micro-service-go/lesson3/reserver.go	/^var addr = flag.String("addr", ":1718", "http service address") \/\/ Q=17, R=18$/;"	v
-album	/home/zhouxinchi/go/src/micro-service-go/lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	t
-album	/home/zhouxinchi/go/src/micro-service-go/lesson3/albumServer.go	/^type album struct {$/;"	t
-album.artist	/home/zhouxinchi/go/src/micro-service-go/lesson2/create-tables.sql	/^  title      VARCHAR(128) NOT NULL,$/;"	F
-album.id	/home/zhouxinchi/go/src/micro-service-go/lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	F
-album.price	/home/zhouxinchi/go/src/micro-service-go/lesson2/create-tables.sql	/^  artist     VARCHAR(255) NOT NULL,$/;"	F
-album.title	/home/zhouxinchi/go/src/micro-service-go/lesson2/create-tables.sql	/^  id         INT AUTO_INCREMENT NOT NULL,$/;"	F
-albumByID	/home/zhouxinchi/go/src/micro-service-go/lesson2/query.go	/^func albumByID(id int64) (Album, error) {$/;"	f
-albums	/home/zhouxinchi/go/src/micro-service-go/lesson3/albumServer.go	/^var albums = []album{$/;"	v
-albumsByArtist	/home/zhouxinchi/go/src/micro-service-go/lesson2/query.go	/^func albumsByArtist(name string) ([]Album, error) {$/;"	f
-db	/home/zhouxinchi/go/src/micro-service-go/lesson2/query.go	/^var db *sql.DB$/;"	v
-fakeSearch	/home/zhouxinchi/go/src/micro-service-go/lesson3/parallize.go	/^func fakeSearch(kind string) Search {$/;"	f
-getAlbumByID	/home/zhouxinchi/go/src/micro-service-go/lesson3/albumServer.go	/^func getAlbumByID(c *gin.Context) {$/;"	f
-getAlbums	/home/zhouxinchi/go/src/micro-service-go/lesson3/albumServer.go	/^func getAlbums(c *gin.Context) {$/;"	f
-getHandle	/home/zhouxinchi/go/src/micro-service-go/lesson2/query.go	/^func getHandle() {$/;"	f
-graceful_restart	/home/zhouxinchi/go/src/micro-service-go/lesson3/albumServer.go	/^func graceful_restart() {$/;"	f
-main	/home/zhouxinchi/go/src/micro-service-go/lesson2/main.go	/^func main() {$/;"	f
-main	/home/zhouxinchi/go/src/micro-service-go/lesson2/main.go	/^package main$/;"	p
-main	/home/zhouxinchi/go/src/micro-service-go/lesson2/query.go	/^package main$/;"	p
-main	/home/zhouxinchi/go/src/micro-service-go/lesson3/albumServer.go	/^package main$/;"	p
-main	/home/zhouxinchi/go/src/micro-service-go/lesson3/main.go	/^func main() {$/;"	f
-main	/home/zhouxinchi/go/src/micro-service-go/lesson3/main.go	/^package main$/;"	p
-main	/home/zhouxinchi/go/src/micro-service-go/lesson3/parallize.go	/^package main$/;"	p
-main	/home/zhouxinchi/go/src/micro-service-go/lesson3/reserver.go	/^package main$/;"	p
-parallize	/home/zhouxinchi/go/src/micro-service-go/lesson3/parallize.go	/^func parallize() {$/;"	f
-postAlbums	/home/zhouxinchi/go/src/micro-service-go/lesson3/albumServer.go	/^func postAlbums(c *gin.Context) {$/;"	f
-templ	/home/zhouxinchi/go/src/micro-service-go/lesson3/reserver.go	/^var templ = template.Must(template.New("qr").Parse(templateStr))$/;"	v
-templateStr	/home/zhouxinchi/go/src/micro-service-go/lesson3/reserver.go	/^const templateStr = `$/;"	c
+Album	lesson2/query.go	/^type Album struct {$/;"	t
+Error	lesson2/query.go	/^func (e TheNewError) Error() string {$/;"	f
+Image	lesson3/parallize.go	/^	Image = fakeSearch("image")$/;"	v
+QR	lesson3/reserver.go	/^func QR(w http.ResponseWriter, req *http.Request) {$/;"	f
+QRServer	lesson3/reserver.go	/^func QRServer() {$/;"	f
+Result	lesson3/parallize.go	/^type Result string$/;"	t
+Search	lesson3/parallize.go	/^type Search func(ctx context.Context, query string) (Result, error)$/;"	t
+TheNewError	lesson2/query.go	/^type TheNewError struct {$/;"	t
+Unwrap	lesson2/query.go	/^func (e TheNewError) Unwrap() error {$/;"	f
+Video	lesson3/parallize.go	/^	Video = fakeSearch("video")$/;"	v
+Web	lesson3/parallize.go	/^	Web   = fakeSearch("web")$/;"	v
+Wrap	lesson2/query.go	/^func (e TheNewError) Wrap(err error, comment string) error {$/;"	f
+addAlbum	lesson2/query.go	/^func addAlbum(alb Album) (int64, error) {$/;"	f
+addr	lesson3/reserver.go	/^var addr = flag.String("addr", ":1718", "http service address") \/\/ Q=17, R=18$/;"	v
+album	lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	t
+album	lesson3/albumServer.go	/^type album struct {$/;"	t
+album.artist	lesson2/create-tables.sql	/^  title      VARCHAR(128) NOT NULL,$/;"	F
+album.id	lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	F
+album.price	lesson2/create-tables.sql	/^  artist     VARCHAR(255) NOT NULL,$/;"	F
+album.title	lesson2/create-tables.sql	/^  id         INT AUTO_INCREMENT NOT NULL,$/;"	F
+albumByID	lesson2/query.go	/^func albumByID(id int64) (Album, error) {$/;"	f
+albums	lesson3/albumServer.go	/^var albums = []album{$/;"	v
+albumsByArtist	lesson2/query.go	/^func albumsByArtist(name string) ([]Album, error) {$/;"	f
+db	lesson2/query.go	/^var db *sql.DB$/;"	v
+fakeSearch	lesson3/parallize.go	/^func fakeSearch(kind string) Search {$/;"	f
+getAlbumByID	lesson3/albumServer.go	/^func getAlbumByID(c *gin.Context) {$/;"	f
+getAlbums	lesson3/albumServer.go	/^func getAlbums(c *gin.Context) {$/;"	f
+getHandle	lesson2/query.go	/^func getHandle() {$/;"	f
+graceful_restart	lesson3/albumServer.go	/^func graceful_restart() {$/;"	f
+main	lesson2/main.go	/^func main() {$/;"	f
+main	lesson2/main.go	/^package main$/;"	p
+main	lesson2/query.go	/^package main$/;"	p
+main	lesson3/albumServer.go	/^package main$/;"	p
+main	lesson3/main.go	/^func main() {$/;"	f
+main	lesson3/main.go	/^package main$/;"	p
+main	lesson3/parallize.go	/^package main$/;"	p
+main	lesson3/reserver.go	/^package main$/;"	p
+parallize	lesson3/parallize.go	/^func parallize() {$/;"	f
+postAlbums	lesson3/albumServer.go	/^func postAlbums(c *gin.Context) {$/;"	f
+templ	lesson3/reserver.go	/^var templ = template.Must(template.New("qr").Parse(templateStr))$/;"	v
+templateStr	lesson3/reserver.go	/^const templateStr = `$/;"	c
