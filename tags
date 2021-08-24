@@ -5,15 +5,26 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 Album	/home/zhouxinchi/桌面/micro-service-go/lesson2/query.go	/^type Album struct {$/;"	t
+Allow	/home/zhouxinchi/桌面/micro-service-go/week5/ratelimit/token_bucket.go	/^func (f AllowerFunc) Allow() bool {$/;"	f
+Allower	/home/zhouxinchi/桌面/micro-service-go/week5/ratelimit/token_bucket.go	/^type Allower interface {$/;"	t
+AllowerFunc	/home/zhouxinchi/桌面/micro-service-go/week5/ratelimit/token_bucket.go	/^type AllowerFunc func() bool$/;"	t
+ErrLimited	/home/zhouxinchi/桌面/micro-service-go/week5/ratelimit/token_bucket.go	/^var ErrLimited = errors.New("rate limit exceeded")$/;"	v
 Error	/home/zhouxinchi/桌面/micro-service-go/lesson2/query.go	/^func (e TheNewError) Error() string {$/;"	f
 Image	/home/zhouxinchi/桌面/micro-service-go/lesson3/parallize.go	/^	Image = fakeSearch("image")$/;"	v
+NewDelayingLimiter	/home/zhouxinchi/桌面/micro-service-go/week5/ratelimit/token_bucket.go	/^func NewDelayingLimiter(limit Waiter) endpoint.Middleware {$/;"	f
+NewErroringLimiter	/home/zhouxinchi/桌面/micro-service-go/week5/ratelimit/token_bucket.go	/^func NewErroringLimiter(limit Allower) endpoint.Middleware {$/;"	f
 QR	/home/zhouxinchi/桌面/micro-service-go/lesson3/reserver.go	/^func QR(w http.ResponseWriter, req *http.Request) {$/;"	f
 QRServer	/home/zhouxinchi/桌面/micro-service-go/lesson3/reserver.go	/^func QRServer() {$/;"	f
 Result	/home/zhouxinchi/桌面/micro-service-go/lesson3/parallize.go	/^type Result string$/;"	t
 Search	/home/zhouxinchi/桌面/micro-service-go/lesson3/parallize.go	/^type Search func(ctx context.Context, query string) (Result, error)$/;"	t
+TestXRateDelaying	/home/zhouxinchi/桌面/micro-service-go/week5/ratelimit/token_bucket_test.go	/^func TestXRateDelaying(t *testing.T) {$/;"	f
+TestXRateErroring	/home/zhouxinchi/桌面/micro-service-go/week5/ratelimit/token_bucket_test.go	/^func TestXRateErroring(t *testing.T) {$/;"	f
 TheNewError	/home/zhouxinchi/桌面/micro-service-go/lesson2/query.go	/^type TheNewError struct {$/;"	t
 Unwrap	/home/zhouxinchi/桌面/micro-service-go/lesson2/query.go	/^func (e TheNewError) Unwrap() error {$/;"	f
 Video	/home/zhouxinchi/桌面/micro-service-go/lesson3/parallize.go	/^	Video = fakeSearch("video")$/;"	v
+Wait	/home/zhouxinchi/桌面/micro-service-go/week5/ratelimit/token_bucket.go	/^func (f WaiterFunc) Wait(ctx context.Context) error {$/;"	f
+Waiter	/home/zhouxinchi/桌面/micro-service-go/week5/ratelimit/token_bucket.go	/^type Waiter interface {$/;"	t
+WaiterFunc	/home/zhouxinchi/桌面/micro-service-go/week5/ratelimit/token_bucket.go	/^type WaiterFunc func(ctx context.Context) error$/;"	t
 Web	/home/zhouxinchi/桌面/micro-service-go/lesson3/parallize.go	/^	Web   = fakeSearch("web")$/;"	v
 Wrap	/home/zhouxinchi/桌面/micro-service-go/lesson2/query.go	/^func (e TheNewError) Wrap(err error, comment string) error {$/;"	f
 addAlbum	/home/zhouxinchi/桌面/micro-service-go/lesson2/query.go	/^func addAlbum(alb Album) (int64, error) {$/;"	f
@@ -41,7 +52,11 @@ main	/home/zhouxinchi/桌面/micro-service-go/lesson3/main.go	/^func main() {$/;
 main	/home/zhouxinchi/桌面/micro-service-go/lesson3/main.go	/^package main$/;"	p
 main	/home/zhouxinchi/桌面/micro-service-go/lesson3/parallize.go	/^package main$/;"	p
 main	/home/zhouxinchi/桌面/micro-service-go/lesson3/reserver.go	/^package main$/;"	p
+nopEndpoint	/home/zhouxinchi/桌面/micro-service-go/week5/ratelimit/token_bucket_test.go	/^var nopEndpoint = func(context.Context, interface{}) (interface{}, error) { return struct{}{}, nil }$/;"	v
 parallize	/home/zhouxinchi/桌面/micro-service-go/lesson3/parallize.go	/^func parallize() {$/;"	f
 postAlbums	/home/zhouxinchi/桌面/micro-service-go/lesson3/albumServer.go	/^func postAlbums(c *gin.Context) {$/;"	f
+ratelimit	/home/zhouxinchi/桌面/micro-service-go/week5/ratelimit/token_bucket.go	/^package ratelimit$/;"	p
+ratelimit_test	/home/zhouxinchi/桌面/micro-service-go/week5/ratelimit/token_bucket_test.go	/^package ratelimit_test$/;"	p
 templ	/home/zhouxinchi/桌面/micro-service-go/lesson3/reserver.go	/^var templ = template.Must(template.New("qr").Parse(templateStr))$/;"	v
 templateStr	/home/zhouxinchi/桌面/micro-service-go/lesson3/reserver.go	/^const templateStr = `$/;"	c
+testSuccessThenFailure	/home/zhouxinchi/桌面/micro-service-go/week5/ratelimit/token_bucket_test.go	/^func testSuccessThenFailure(t *testing.T, e endpoint.Endpoint, failContains string) {$/;"	f
