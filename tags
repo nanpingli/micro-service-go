@@ -4,59 +4,59 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-Album	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^type Album struct {$/;"	t
-Allow	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^func (f AllowerFunc) Allow() bool {$/;"	f
-Allower	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^type Allower interface {$/;"	t
-AllowerFunc	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^type AllowerFunc func() bool$/;"	t
-ErrLimited	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^var ErrLimited = errors.New("rate limit exceeded")$/;"	v
-Error	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^func (e TheNewError) Error() string {$/;"	f
-Image	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/parallize.go	/^	Image = fakeSearch("image")$/;"	v
-NewDelayingLimiter	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^func NewDelayingLimiter(limit Waiter) endpoint.Middleware {$/;"	f
-NewErroringLimiter	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^func NewErroringLimiter(limit Allower) endpoint.Middleware {$/;"	f
-QR	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/reserver.go	/^func QR(w http.ResponseWriter, req *http.Request) {$/;"	f
-QRServer	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/reserver.go	/^func QRServer() {$/;"	f
-Result	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/parallize.go	/^type Result string$/;"	t
-Search	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/parallize.go	/^type Search func(ctx context.Context, query string) (Result, error)$/;"	t
-TestXRateDelaying	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket_test.go	/^func TestXRateDelaying(t *testing.T) {$/;"	f
-TestXRateErroring	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket_test.go	/^func TestXRateErroring(t *testing.T) {$/;"	f
-TheNewError	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^type TheNewError struct {$/;"	t
-Unwrap	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^func (e TheNewError) Unwrap() error {$/;"	f
-Video	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/parallize.go	/^	Video = fakeSearch("video")$/;"	v
-Wait	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^func (f WaiterFunc) Wait(ctx context.Context) error {$/;"	f
-Waiter	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^type Waiter interface {$/;"	t
-WaiterFunc	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^type WaiterFunc func(ctx context.Context) error$/;"	t
-Web	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/parallize.go	/^	Web   = fakeSearch("web")$/;"	v
-Wrap	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^func (e TheNewError) Wrap(err error, comment string) error {$/;"	f
-addAlbum	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^func addAlbum(alb Album) (int64, error) {$/;"	f
-addr	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/reserver.go	/^var addr = flag.String("addr", ":1718", "http service address") \/\/ Q=17, R=18$/;"	v
-album	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	t
-album	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/albumServer.go	/^type album struct {$/;"	t
-album.artist	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/create-tables.sql	/^  title      VARCHAR(128) NOT NULL,$/;"	F
-album.id	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	F
-album.price	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/create-tables.sql	/^  artist     VARCHAR(255) NOT NULL,$/;"	F
-album.title	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/create-tables.sql	/^  id         INT AUTO_INCREMENT NOT NULL,$/;"	F
-albumByID	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^func albumByID(id int64) (Album, error) {$/;"	f
-albums	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/albumServer.go	/^var albums = []album{$/;"	v
-albumsByArtist	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^func albumsByArtist(name string) ([]Album, error) {$/;"	f
-db	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^var db *sql.DB$/;"	v
-fakeSearch	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/parallize.go	/^func fakeSearch(kind string) Search {$/;"	f
-getAlbumByID	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/albumServer.go	/^func getAlbumByID(c *gin.Context) {$/;"	f
-getAlbums	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/albumServer.go	/^func getAlbums(c *gin.Context) {$/;"	f
-getHandle	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^func getHandle() {$/;"	f
-graceful_restart	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/albumServer.go	/^func graceful_restart() {$/;"	f
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/main.go	/^func main() {$/;"	f
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/main.go	/^package main$/;"	p
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^package main$/;"	p
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/albumServer.go	/^package main$/;"	p
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/main.go	/^func main() {$/;"	f
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/main.go	/^package main$/;"	p
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/parallize.go	/^package main$/;"	p
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/reserver.go	/^package main$/;"	p
-nopEndpoint	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket_test.go	/^var nopEndpoint = func(context.Context, interface{}) (interface{}, error) { return struct{}{}, nil }$/;"	v
-parallize	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/parallize.go	/^func parallize() {$/;"	f
-postAlbums	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/albumServer.go	/^func postAlbums(c *gin.Context) {$/;"	f
-ratelimit	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^package ratelimit$/;"	p
-ratelimit_test	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket_test.go	/^package ratelimit_test$/;"	p
-templ	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/reserver.go	/^var templ = template.Must(template.New("qr").Parse(templateStr))$/;"	v
-templateStr	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/reserver.go	/^const templateStr = `$/;"	c
-testSuccessThenFailure	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket_test.go	/^func testSuccessThenFailure(t *testing.T, e endpoint.Endpoint, failContains string) {$/;"	f
+Album	lesson2/query.go	/^type Album struct {$/;"	t
+Allow	week5/ratelimit/token_bucket.go	/^func (f AllowerFunc) Allow() bool {$/;"	f
+Allower	week5/ratelimit/token_bucket.go	/^type Allower interface {$/;"	t
+AllowerFunc	week5/ratelimit/token_bucket.go	/^type AllowerFunc func() bool$/;"	t
+ErrLimited	week5/ratelimit/token_bucket.go	/^var ErrLimited = errors.New("rate limit exceeded")$/;"	v
+Error	lesson2/query.go	/^func (e TheNewError) Error() string {$/;"	f
+Image	lesson3/parallize.go	/^	Image = fakeSearch("image")$/;"	v
+NewDelayingLimiter	week5/ratelimit/token_bucket.go	/^func NewDelayingLimiter(limit Waiter) endpoint.Middleware {$/;"	f
+NewErroringLimiter	week5/ratelimit/token_bucket.go	/^func NewErroringLimiter(limit Allower) endpoint.Middleware {$/;"	f
+QR	lesson3/reserver.go	/^func QR(w http.ResponseWriter, req *http.Request) {$/;"	f
+QRServer	lesson3/reserver.go	/^func QRServer() {$/;"	f
+Result	lesson3/parallize.go	/^type Result string$/;"	t
+Search	lesson3/parallize.go	/^type Search func(ctx context.Context, query string) (Result, error)$/;"	t
+TestXRateDelaying	week5/ratelimit/token_bucket_test.go	/^func TestXRateDelaying(t *testing.T) {$/;"	f
+TestXRateErroring	week5/ratelimit/token_bucket_test.go	/^func TestXRateErroring(t *testing.T) {$/;"	f
+TheNewError	lesson2/query.go	/^type TheNewError struct {$/;"	t
+Unwrap	lesson2/query.go	/^func (e TheNewError) Unwrap() error {$/;"	f
+Video	lesson3/parallize.go	/^	Video = fakeSearch("video")$/;"	v
+Wait	week5/ratelimit/token_bucket.go	/^func (f WaiterFunc) Wait(ctx context.Context) error {$/;"	f
+Waiter	week5/ratelimit/token_bucket.go	/^type Waiter interface {$/;"	t
+WaiterFunc	week5/ratelimit/token_bucket.go	/^type WaiterFunc func(ctx context.Context) error$/;"	t
+Web	lesson3/parallize.go	/^	Web   = fakeSearch("web")$/;"	v
+Wrap	lesson2/query.go	/^func (e TheNewError) Wrap(err error, comment string) error {$/;"	f
+addAlbum	lesson2/query.go	/^func addAlbum(alb Album) (int64, error) {$/;"	f
+addr	lesson3/reserver.go	/^var addr = flag.String("addr", ":1718", "http service address") \/\/ Q=17, R=18$/;"	v
+album	lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	t
+album	lesson3/albumServer.go	/^type album struct {$/;"	t
+album.artist	lesson2/create-tables.sql	/^  title      VARCHAR(128) NOT NULL,$/;"	F
+album.id	lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	F
+album.price	lesson2/create-tables.sql	/^  artist     VARCHAR(255) NOT NULL,$/;"	F
+album.title	lesson2/create-tables.sql	/^  id         INT AUTO_INCREMENT NOT NULL,$/;"	F
+albumByID	lesson2/query.go	/^func albumByID(id int64) (Album, error) {$/;"	f
+albums	lesson3/albumServer.go	/^var albums = []album{$/;"	v
+albumsByArtist	lesson2/query.go	/^func albumsByArtist(name string) ([]Album, error) {$/;"	f
+db	lesson2/query.go	/^var db *sql.DB$/;"	v
+fakeSearch	lesson3/parallize.go	/^func fakeSearch(kind string) Search {$/;"	f
+getAlbumByID	lesson3/albumServer.go	/^func getAlbumByID(c *gin.Context) {$/;"	f
+getAlbums	lesson3/albumServer.go	/^func getAlbums(c *gin.Context) {$/;"	f
+getHandle	lesson2/query.go	/^func getHandle() {$/;"	f
+graceful_restart	lesson3/albumServer.go	/^func graceful_restart() {$/;"	f
+main	lesson2/main.go	/^func main() {$/;"	f
+main	lesson2/main.go	/^package main$/;"	p
+main	lesson2/query.go	/^package main$/;"	p
+main	lesson3/albumServer.go	/^package main$/;"	p
+main	lesson3/main.go	/^func main() {$/;"	f
+main	lesson3/main.go	/^package main$/;"	p
+main	lesson3/parallize.go	/^package main$/;"	p
+main	lesson3/reserver.go	/^package main$/;"	p
+nopEndpoint	week5/ratelimit/token_bucket_test.go	/^var nopEndpoint = func(context.Context, interface{}) (interface{}, error) { return struct{}{}, nil }$/;"	v
+parallize	lesson3/parallize.go	/^func parallize() {$/;"	f
+postAlbums	lesson3/albumServer.go	/^func postAlbums(c *gin.Context) {$/;"	f
+ratelimit	week5/ratelimit/token_bucket.go	/^package ratelimit$/;"	p
+ratelimit_test	week5/ratelimit/token_bucket_test.go	/^package ratelimit_test$/;"	p
+templ	lesson3/reserver.go	/^var templ = template.Must(template.New("qr").Parse(templateStr))$/;"	v
+templateStr	lesson3/reserver.go	/^const templateStr = `$/;"	c
+testSuccessThenFailure	week5/ratelimit/token_bucket_test.go	/^func testSuccessThenFailure(t *testing.T, e endpoint.Endpoint, failContains string) {$/;"	f
