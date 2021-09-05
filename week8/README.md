@@ -6,5 +6,5 @@
 [redis_benchmark](./benchmark_value_size.md)
 
 # Reference
-[redis administration](https://redis.io/documentation#administration). 
+[redis administration](https://redis.io/documentation#administration).   
 [redis go client](https://github.com/go-redis/redis)
