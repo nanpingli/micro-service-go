@@ -18,6 +18,7 @@ QR	lesson3/reserver.go	/^func QR(w http.ResponseWriter, req *http.Request) {$/;"
 QRServer	lesson3/reserver.go	/^func QRServer() {$/;"	f
 Result	lesson3/parallize.go	/^type Result string$/;"	t
 Search	lesson3/parallize.go	/^type Search func(ctx context.Context, query string) (Result, error)$/;"	t
+TCP	week9/main.go	/^func TCP() {$/;"	f
 TestXRateDelaying	week5/ratelimit/token_bucket_test.go	/^func TestXRateDelaying(t *testing.T) {$/;"	f
 TestXRateErroring	week5/ratelimit/token_bucket_test.go	/^func TestXRateErroring(t *testing.T) {$/;"	f
 TheNewError	lesson2/query.go	/^type TheNewError struct {$/;"	t
@@ -46,6 +47,7 @@ getAlbumByID	lesson3/albumServer.go	/^func getAlbumByID(c *gin.Context) {$/;"	f
 getAlbums	lesson3/albumServer.go	/^func getAlbums(c *gin.Context) {$/;"	f
 getHandle	lesson2/query.go	/^func getHandle() {$/;"	f
 graceful_restart	lesson3/albumServer.go	/^func graceful_restart() {$/;"	f
+handleConn	week9/main.go	/^func handleConn(conn net.Conn) {$/;"	f
 main	lesson2/main.go	/^func main() {$/;"	f
 main	lesson2/main.go	/^package main$/;"	p
 main	lesson2/query.go	/^package main$/;"	p
@@ -56,6 +58,7 @@ main	lesson3/parallize.go	/^package main$/;"	p
 main	lesson3/reserver.go	/^package main$/;"	p
 main	week8/main.go	/^func main() {$/;"	f
 main	week8/main.go	/^package main$/;"	p
+main	week9/main.go	/^package main$/;"	p
 nopEndpoint	week5/ratelimit/token_bucket_test.go	/^var nopEndpoint = func(context.Context, interface{}) (interface{}, error) { return struct{}{}, nil }$/;"	v
 parallize	lesson3/parallize.go	/^func parallize() {$/;"	f
 postAlbums	lesson3/albumServer.go	/^func postAlbums(c *gin.Context) {$/;"	f
