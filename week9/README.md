@@ -47,3 +47,6 @@
 
 
 ## Netty 中的实现
+
+## Reference
+[Netty-粘包和半包](https://zhuanlan.zhihu.com/p/88112396)
