@@ -1,7 +1,10 @@
-https://mp.weixin.qq.com/s/fX26tCdYSMgwM54_2CpVrw  
-https://www.jianshu.com/p/bde902c57e80  
+[quickstart](https://kafka.apache.org/quickstart)
+[Everything you need to know about Kafka in 10 minutes](https://kafka.apache.org/intro)
+
+[我以为我对Kafka很了解，直到我看了这篇文章](https://mp.weixin.qq.com/s/fX26tCdYSMgwM54_2CpVrw)  
+[全面解析kafka架构与原理](https://www.jianshu.com/p/bde902c57e80)  
 https://mp.weixin.qq.com/s?__biz=MzUxODkzNTQ3Nw==&mid=2247486202&idx=1&sn=23f249d3796eb53aff9cf41de6a41761&chksm=f9800c20cef785361afc55298d26e8dc799751a472be48eae6c02b508b7cb8c62ba3ac4eb99b&scene=132#wechat_redirect  
-https://zhuanlan.zhihu.com/p/27551928  
+[Kafka设计解析（一） Kafka背景及架构介绍](https://zhuanlan.zhihu.com/p/27551928)  
 https://zhuanlan.zhihu.com/p/27587872  
 https://zhuanlan.zhihu.com/p/31322316  
 https://zhuanlan.zhihu.com/p/31322697  

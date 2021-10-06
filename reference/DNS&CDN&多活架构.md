@@ -1,33 +1,27 @@
-饿了么  
-http://afghl.github.io/2018/02/11/distributed-system-multi-datacenter-1.html  
+## 饿了么  
+[分布式系统 - 关于异地多活的一点笔记](http://afghl.github.io/2018/02/11/distributed-system-multi-datacenter-1.html)  
 https://zhuanlan.zhihu.com/p/32009822  
 https://zhuanlan.zhihu.com/p/32587960  
 https://zhuanlan.zhihu.com/p/33430869  
 https://zhuanlan.zhihu.com/p/34958596  
-OPPO  
+## OPPO  
 https://mp.weixin.qq.com/s/RQiurTi_pLkmIg_PSpZtvA  
 https://mp.weixin.qq.com/s/LCn71j3hgm5Ij5tHYe8uoA  
-Facebook  
-https://zhuanlan.zhihu.com/p/20827183  
-阿里  
+## Facebook  
+[Scaling Memcache in Facebook 笔记（三）](https://zhuanlan.zhihu.com/p/20827183)  
+## 阿里  
 https://www.cnblogs.com/davidwang456/articles/8192860.html  
 https://mp.weixin.qq.com/s/ty5GltO9M648OXSWgLe_Sg  
 https://developer.aliyun.com/article/57715  
 https://toutiao.io/posts/y8qekd/preview  
 https://tech.antfin.com/community/articles/922  
-苏宁  
+## 苏宁  
 https://mp.weixin.qq.com/s/WK8N4xFxCoUvSpXOwCVIXw  
 https://mp.weixin.qq.com/s/ooPLV039BAGBsiDZagWNHw  
 https://mp.weixin.qq.com/s/VPkQhJLl_ULwklP1sqF79g  
-https://mp.weixin.qq.com/s/ty5GltO9M648OXSWgLe_Sg  
 https://mp.weixin.qq.com/s/GdfYsuUajWP-OWo6lbmjVQ  
 https://developer.aliyun.com/article/57715  
-https://mp.weixin.qq.com/s/RQiurTi_pLkmIg_PSpZtvA  
-https://mp.weixin.qq.com/s/LCn71j3hgm5Ij5tHYe8uoA  
-http://afghl.github.io/2018/02/11/distributed-system-multi-datacenter-1.html  
-https://zhuanlan.zhihu.com/p/42150666  
-https://zhuanlan.zhihu.com/p/20827183  
-https://myslide.cn/slides/733  
+[异地多活技术方案的原则，技巧，步骤](https://zhuanlan.zhihu.com/p/42150666)  
 https://blog.csdn.net/u012422829/article/details/83718296  
 https://blog.csdn.net/u012422829/article/details/83932829  
 https://www.cnblogs.com/king0101/p/11908305.html  
@@ -40,7 +34,6 @@ https://mp.weixin.qq.com/s/h_KWwzPzszrdGq5kcCudRA
 https://www.cnblogs.com/davidwang456/articles/8192860.html  
 https://mp.weixin.qq.com/s/GdfYsuUajWP-OWo6lbmjVQ  
 https://www.cnblogs.com/king0101/p/11908305.html  
-https://zhuanlan.zhihu.com/p/42150666  
 https://help.aliyun.com/document_detail/72721.html  
 https://blog.csdn.net/u012422829/article/details/83718296  
 https://blog.csdn.net/u012422829/article/details/83932829  
