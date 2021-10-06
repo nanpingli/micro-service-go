@@ -1,3 +1,4 @@
+[Go channel 应用](https://www.yipwinghong.com/2021/07/28/Go_channel-applications/)  
 https://www.ardanlabs.com/blog/2018/11/goroutine-leaks-the-forgotten-sender.html  
 https://www.ardanlabs.com/blog/2019/04/concurrency-trap-2-incomplete-work.html  
 https://www.ardanlabs.com/blog/2014/01/concurrency-goroutines-and-gomaxprocs.html  
