@@ -4,66 +4,201 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-Album	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^type Album struct {$/;"	t
-Allow	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^func (f AllowerFunc) Allow() bool {$/;"	f
-Allower	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^type Allower interface {$/;"	t
-AllowerFunc	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^type AllowerFunc func() bool$/;"	t
-ErrLimited	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^var ErrLimited = errors.New("rate limit exceeded")$/;"	v
-Error	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^func (e TheNewError) Error() string {$/;"	f
-ExampleClient	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week8/main.go	/^func ExampleClient() {$/;"	f
-Image	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/parallize.go	/^	Image = fakeSearch("image")$/;"	v
-NewDelayingLimiter	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^func NewDelayingLimiter(limit Waiter) endpoint.Middleware {$/;"	f
-NewErroringLimiter	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^func NewErroringLimiter(limit Allower) endpoint.Middleware {$/;"	f
-QR	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/reserver.go	/^func QR(w http.ResponseWriter, req *http.Request) {$/;"	f
-QRServer	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/reserver.go	/^func QRServer() {$/;"	f
-Result	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/parallize.go	/^type Result string$/;"	t
-Search	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/parallize.go	/^type Search func(ctx context.Context, query string) (Result, error)$/;"	t
-TCP	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week9/tcp.go	/^func TCP() {$/;"	f
-TestXRateDelaying	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket_test.go	/^func TestXRateDelaying(t *testing.T) {$/;"	f
-TestXRateErroring	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket_test.go	/^func TestXRateErroring(t *testing.T) {$/;"	f
-TheNewError	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^type TheNewError struct {$/;"	t
-Unwrap	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^func (e TheNewError) Unwrap() error {$/;"	f
-Video	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/parallize.go	/^	Video = fakeSearch("video")$/;"	v
-Wait	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^func (f WaiterFunc) Wait(ctx context.Context) error {$/;"	f
-Waiter	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^type Waiter interface {$/;"	t
-WaiterFunc	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^type WaiterFunc func(ctx context.Context) error$/;"	t
-Web	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/parallize.go	/^	Web   = fakeSearch("web")$/;"	v
-Wrap	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^func (e TheNewError) Wrap(err error, comment string) error {$/;"	f
-addAlbum	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^func addAlbum(alb Album) (int64, error) {$/;"	f
-addr	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/reserver.go	/^var addr = flag.String("addr", ":1718", "http service address") \/\/ Q=17, R=18$/;"	v
-album	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	t
-album	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/albumServer.go	/^type album struct {$/;"	t
-album.artist	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/create-tables.sql	/^  title      VARCHAR(128) NOT NULL,$/;"	F
-album.id	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	F
-album.price	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/create-tables.sql	/^  artist     VARCHAR(255) NOT NULL,$/;"	F
-album.title	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/create-tables.sql	/^  id         INT AUTO_INCREMENT NOT NULL,$/;"	F
-albumByID	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^func albumByID(id int64) (Album, error) {$/;"	f
-albums	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/albumServer.go	/^var albums = []album{$/;"	v
-albumsByArtist	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^func albumsByArtist(name string) ([]Album, error) {$/;"	f
-ctx	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week8/main.go	/^var ctx = context.Background()$/;"	v
-db	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^var db *sql.DB$/;"	v
-fakeSearch	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/parallize.go	/^func fakeSearch(kind string) Search {$/;"	f
-getAlbumByID	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/albumServer.go	/^func getAlbumByID(c *gin.Context) {$/;"	f
-getAlbums	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/albumServer.go	/^func getAlbums(c *gin.Context) {$/;"	f
-getHandle	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^func getHandle() {$/;"	f
-graceful_restart	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/albumServer.go	/^func graceful_restart() {$/;"	f
-handleConn	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week9/tcp.go	/^func handleConn(conn net.Conn) {$/;"	f
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/main.go	/^func main() {$/;"	f
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/main.go	/^package main$/;"	p
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson2/query.go	/^package main$/;"	p
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/albumServer.go	/^package main$/;"	p
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/main.go	/^func main() {$/;"	f
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/main.go	/^package main$/;"	p
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/parallize.go	/^package main$/;"	p
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/reserver.go	/^package main$/;"	p
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week8/main.go	/^func main() {$/;"	f
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week8/main.go	/^package main$/;"	p
-main	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week9/tcp.go	/^package main$/;"	p
-nopEndpoint	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket_test.go	/^var nopEndpoint = func(context.Context, interface{}) (interface{}, error) { return struct{}{}, nil }$/;"	v
-parallize	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/parallize.go	/^func parallize() {$/;"	f
-postAlbums	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/albumServer.go	/^func postAlbums(c *gin.Context) {$/;"	f
-ratelimit	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket.go	/^package ratelimit$/;"	p
-ratelimit_test	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket_test.go	/^package ratelimit_test$/;"	p
-templ	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/reserver.go	/^var templ = template.Must(template.New("qr").Parse(templateStr))$/;"	v
-templateStr	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/lesson3/reserver.go	/^const templateStr = `$/;"	c
-testSuccessThenFailure	/home/zhouxinchi/桌面/golang-workspace/micro-service-go/week5/ratelimit/token_bucket_test.go	/^func testSuccessThenFailure(t *testing.T, e endpoint.Endpoint, failContains string) {$/;"	f
+Album	lesson2/query.go	/^type Album struct {$/;"	t
+Allow	week5/ratelimit/token_bucket.go	/^func (f AllowerFunc) Allow() bool {$/;"	f
+Allower	week5/ratelimit/token_bucket.go	/^type Allower interface {$/;"	t
+AllowerFunc	week5/ratelimit/token_bucket.go	/^type AllowerFunc func() bool$/;"	t
+AuthToken	week9/benchmarks/client/main.go	/^type AuthToken struct {$/;"	t
+AuthToken	week9/main.go	/^type AuthToken struct {$/;"	t
+Descriptor	week9/api/protocol/protocol.pb.go	/^func (*Proto) Descriptor() ([]byte, []int) {$/;"	f
+ErrLimited	week5/ratelimit/token_bucket.go	/^var ErrLimited = errors.New("rate limit exceeded")$/;"	v
+ErrProtoHeaderLen	week9/api/protocol/protocol.go	/^	ErrProtoHeaderLen = errors.New("default server codec header length error")$/;"	v
+ErrProtoPackLen	week9/api/protocol/protocol.go	/^	ErrProtoPackLen = errors.New("default server codec pack length error")$/;"	v
+Error	lesson2/query.go	/^func (e TheNewError) Error() string {$/;"	f
+ExampleClient	week8/main.go	/^func ExampleClient() {$/;"	f
+GetBody	week9/api/protocol/protocol.pb.go	/^func (m *Proto) GetBody() []byte {$/;"	f
+GetOp	week9/api/protocol/protocol.pb.go	/^func (m *Proto) GetOp() int32 {$/;"	f
+GetSeq	week9/api/protocol/protocol.pb.go	/^func (m *Proto) GetSeq() int32 {$/;"	f
+GetVer	week9/api/protocol/protocol.pb.go	/^func (m *Proto) GetVer() int32 {$/;"	f
+Image	lesson3/parallize.go	/^	Image = fakeSearch("image")$/;"	v
+MaxBodySize	week9/api/protocol/protocol.go	/^	MaxBodySize = int32(1 << 12)$/;"	c
+NewDelayingLimiter	week5/ratelimit/token_bucket.go	/^func NewDelayingLimiter(limit Waiter) endpoint.Middleware {$/;"	f
+NewErroringLimiter	week5/ratelimit/token_bucket.go	/^func NewErroringLimiter(limit Allower) endpoint.Middleware {$/;"	f
+OpAuth	week9/api/protocol/operation.go	/^	OpAuth = int32(7)$/;"	c
+OpAuthReply	week9/api/protocol/operation.go	/^	OpAuthReply = int32(8)$/;"	c
+OpChangeRoom	week9/api/protocol/operation.go	/^	OpChangeRoom = int32(12)$/;"	c
+OpChangeRoomReply	week9/api/protocol/operation.go	/^	OpChangeRoomReply = int32(13)$/;"	c
+OpDisconnectReply	week9/api/protocol/operation.go	/^	OpDisconnectReply = int32(6)$/;"	c
+OpHandshake	week9/api/protocol/operation.go	/^	OpHandshake = int32(0)$/;"	c
+OpHandshakeReply	week9/api/protocol/operation.go	/^	OpHandshakeReply = int32(1)$/;"	c
+OpHeartbeat	week9/api/protocol/operation.go	/^	OpHeartbeat = int32(2)$/;"	c
+OpHeartbeatReply	week9/api/protocol/operation.go	/^	OpHeartbeatReply = int32(3)$/;"	c
+OpProtoFinish	week9/api/protocol/operation.go	/^	OpProtoFinish = int32(11)$/;"	c
+OpProtoReady	week9/api/protocol/operation.go	/^	OpProtoReady = int32(10)$/;"	c
+OpRaw	week9/api/protocol/operation.go	/^	OpRaw = int32(9)$/;"	c
+OpSendMsg	week9/api/protocol/operation.go	/^	OpSendMsg = int32(4)$/;"	c
+OpSendMsgReply	week9/api/protocol/operation.go	/^	OpSendMsgReply = int32(5)$/;"	c
+OpSub	week9/api/protocol/operation.go	/^	OpSub = int32(14)$/;"	c
+OpSubReply	week9/api/protocol/operation.go	/^	OpSubReply = int32(15)$/;"	c
+OpUnsub	week9/api/protocol/operation.go	/^	OpUnsub = int32(16)$/;"	c
+OpUnsubReply	week9/api/protocol/operation.go	/^	OpUnsubReply = int32(17)$/;"	c
+Proto	week9/api/protocol/protocol.pb.go	/^type Proto struct {$/;"	t
+Proto	week9/benchmarks/client/main.go	/^type Proto struct {$/;"	t
+Proto	week9/main.go	/^type Proto struct {$/;"	t
+ProtoFinish	week9/api/protocol/protocol.go	/^	ProtoFinish = &Proto{Op: OpProtoFinish}$/;"	v
+ProtoMessage	week9/api/protocol/protocol.pb.go	/^func (*Proto) ProtoMessage()    {}$/;"	f
+ProtoReady	week9/api/protocol/protocol.go	/^	ProtoReady = &Proto{Op: OpProtoReady}$/;"	v
+QR	lesson3/reserver.go	/^func QR(w http.ResponseWriter, req *http.Request) {$/;"	f
+QRServer	lesson3/reserver.go	/^func QRServer() {$/;"	f
+ReadTCP	week9/api/protocol/protocol.go	/^func (p *Proto) ReadTCP(rr *bufio.Reader) (err error) {$/;"	f
+ReadWebsocket	week9/api/protocol/protocol.go	/^func (p *Proto) ReadWebsocket(ws *websocket.Conn) (err error) {$/;"	f
+Reset	week9/api/protocol/protocol.pb.go	/^func (m *Proto) Reset()         { *m = Proto{} }$/;"	f
+Result	lesson3/parallize.go	/^type Result string$/;"	t
+Search	lesson3/parallize.go	/^type Search func(ctx context.Context, query string) (Result, error)$/;"	t
+String	week9/api/protocol/protocol.pb.go	/^func (m *Proto) String() string { return proto.CompactTextString(m) }$/;"	f
+TCP	week9/tcp.go	/^func TCP() {$/;"	f
+TestXRateDelaying	week5/ratelimit/token_bucket_test.go	/^func TestXRateDelaying(t *testing.T) {$/;"	f
+TestXRateErroring	week5/ratelimit/token_bucket_test.go	/^func TestXRateErroring(t *testing.T) {$/;"	f
+TheNewError	lesson2/query.go	/^type TheNewError struct {$/;"	t
+Unwrap	lesson2/query.go	/^func (e TheNewError) Unwrap() error {$/;"	f
+Video	lesson3/parallize.go	/^	Video = fakeSearch("video")$/;"	v
+Wait	week5/ratelimit/token_bucket.go	/^func (f WaiterFunc) Wait(ctx context.Context) error {$/;"	f
+Waiter	week5/ratelimit/token_bucket.go	/^type Waiter interface {$/;"	t
+WaiterFunc	week5/ratelimit/token_bucket.go	/^type WaiterFunc func(ctx context.Context) error$/;"	t
+Web	lesson3/parallize.go	/^	Web   = fakeSearch("web")$/;"	v
+Wrap	lesson2/query.go	/^func (e TheNewError) Wrap(err error, comment string) error {$/;"	f
+WriteTCP	week9/api/protocol/protocol.go	/^func (p *Proto) WriteTCP(wr *bufio.Writer) (err error) {$/;"	f
+WriteTCPHeart	week9/api/protocol/protocol.go	/^func (p *Proto) WriteTCPHeart(wr *bufio.Writer, online int32) (err error) {$/;"	f
+WriteTo	week9/api/protocol/protocol.go	/^func (p *Proto) WriteTo(b *bytes.Writer) {$/;"	f
+WriteWebsocket	week9/api/protocol/protocol.go	/^func (p *Proto) WriteWebsocket(ws *websocket.Conn) (err error) {$/;"	f
+WriteWebsocketHeart	week9/api/protocol/protocol.go	/^func (p *Proto) WriteWebsocketHeart(wr *websocket.Conn, online int32) (err error) {$/;"	f
+XXX_DiscardUnknown	week9/api/protocol/protocol.pb.go	/^func (m *Proto) XXX_DiscardUnknown() {$/;"	f
+XXX_Marshal	week9/api/protocol/protocol.pb.go	/^func (m *Proto) XXX_Marshal(b []byte, deterministic bool) ([]byte, error) {$/;"	f
+XXX_Merge	week9/api/protocol/protocol.pb.go	/^func (m *Proto) XXX_Merge(src proto.Message) {$/;"	f
+XXX_Size	week9/api/protocol/protocol.pb.go	/^func (m *Proto) XXX_Size() int {$/;"	f
+XXX_Unmarshal	week9/api/protocol/protocol.pb.go	/^func (m *Proto) XXX_Unmarshal(b []byte) error {$/;"	f
+_	week9/api/protocol/protocol.pb.go	/^const _ = proto.ProtoPackageIsVersion3 \/\/ please upgrade the proto package$/;"	c
+_	week9/api/protocol/protocol.pb.go	/^var _ = fmt.Errorf$/;"	v
+_	week9/api/protocol/protocol.pb.go	/^var _ = math.Inf$/;"	v
+_	week9/api/protocol/protocol.pb.go	/^var _ = proto.Marshal$/;"	v
+_headerOffset	week9/api/protocol/protocol.go	/^	_headerOffset = _packOffset + _packSize$/;"	c
+_headerSize	week9/api/protocol/protocol.go	/^	_headerSize    = 2$/;"	c
+_heartOffset	week9/api/protocol/protocol.go	/^	_heartOffset  = _seqOffset + _seqSize$/;"	c
+_heartSize	week9/api/protocol/protocol.go	/^	_heartSize     = 4$/;"	c
+_maxPackSize	week9/api/protocol/protocol.go	/^	_maxPackSize   = MaxBodySize + int32(_rawHeaderSize)$/;"	c
+_opOffset	week9/api/protocol/protocol.go	/^	_opOffset     = _verOffset + _verSize$/;"	c
+_opSize	week9/api/protocol/protocol.go	/^	_opSize        = 4$/;"	c
+_packOffset	week9/api/protocol/protocol.go	/^	_packOffset   = 0$/;"	c
+_packSize	week9/api/protocol/protocol.go	/^	_packSize      = 4$/;"	c
+_rawHeaderSize	week9/api/protocol/protocol.go	/^	_rawHeaderSize = _packSize + _headerSize + _verSize + _opSize + _seqSize$/;"	c
+_seqOffset	week9/api/protocol/protocol.go	/^	_seqOffset    = _opOffset + _opSize$/;"	c
+_seqSize	week9/api/protocol/protocol.go	/^	_seqSize       = 4$/;"	c
+_verOffset	week9/api/protocol/protocol.go	/^	_verOffset    = _headerOffset + _headerSize$/;"	c
+_verSize	week9/api/protocol/protocol.go	/^	_verSize       = 2$/;"	c
+addAlbum	lesson2/query.go	/^func addAlbum(alb Album) (int64, error) {$/;"	f
+addr	lesson3/reserver.go	/^var addr = flag.String("addr", ":1718", "http service address") \/\/ Q=17, R=18$/;"	v
+album	lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	t
+album	lesson3/albumServer.go	/^type album struct {$/;"	t
+album.artist	lesson2/create-tables.sql	/^  title      VARCHAR(128) NOT NULL,$/;"	F
+album.id	lesson2/create-tables.sql	/^CREATE TABLE album ($/;"	F
+album.price	lesson2/create-tables.sql	/^  artist     VARCHAR(255) NOT NULL,$/;"	F
+album.title	lesson2/create-tables.sql	/^  id         INT AUTO_INCREMENT NOT NULL,$/;"	F
+albumByID	lesson2/query.go	/^func albumByID(id int64) (Album, error) {$/;"	f
+albums	lesson3/albumServer.go	/^var albums = []album{$/;"	v
+albumsByArtist	lesson2/query.go	/^func albumsByArtist(name string) ([]Album, error) {$/;"	f
+aliveCount	week9/benchmarks/client/main.go	/^	aliveCount int64$/;"	v
+aliveCount	week9/main.go	/^	aliveCount int64$/;"	v
+api	week9/api/generate.go	/^package api$/;"	p
+client	week9/benchmarks/client/main.go	/^func client(mid int64) {$/;"	f
+client	week9/main.go	/^func client(mid int64) {$/;"	f
+countDown	week9/benchmarks/client/main.go	/^	countDown  int64$/;"	v
+countDown	week9/main.go	/^	countDown  int64$/;"	v
+ctx	week8/main.go	/^var ctx = context.Background()$/;"	v
+db	lesson2/query.go	/^var db *sql.DB$/;"	v
+fakeSearch	lesson3/parallize.go	/^func fakeSearch(kind string) Search {$/;"	f
+fileDescriptor_87968d26f3046c60	week9/api/protocol/protocol.pb.go	/^var fileDescriptor_87968d26f3046c60 = []byte{$/;"	v
+getAlbumByID	lesson3/albumServer.go	/^func getAlbumByID(c *gin.Context) {$/;"	f
+getAlbums	lesson3/albumServer.go	/^func getAlbums(c *gin.Context) {$/;"	f
+getHandle	lesson2/query.go	/^func getHandle() {$/;"	f
+graceful_restart	lesson3/albumServer.go	/^func graceful_restart() {$/;"	f
+handleConn	week9/tcp.go	/^func handleConn(conn net.Conn) {$/;"	f
+heart	week9/benchmarks/client/main.go	/^	heart        = 240 * time.Second$/;"	c
+heart	week9/main.go	/^	heart        = 240 * time.Second$/;"	c
+httpClient	week9/benchmarks/multi_push/main.go	/^	httpClient *http.Client$/;"	v
+httpClient	week9/benchmarks/push/main.go	/^	httpClient *http.Client$/;"	v
+httpClient	week9/benchmarks/push_rooms/main.go	/^	httpClient *http.Client$/;"	v
+httpPost	week9/benchmarks/multi_push/main.go	/^func httpPost(url string, contentType string, body io.Reader) (*http.Response, error) {$/;"	f
+httpPost	week9/benchmarks/push/main.go	/^func httpPost(url string, contentType string, body io.Reader) (*http.Response, error) {$/;"	f
+init	week9/api/protocol/protocol.pb.go	/^func init() { proto.RegisterFile("protocol\/protocol.proto", fileDescriptor_87968d26f3046c60) }$/;"	f
+init	week9/api/protocol/protocol.pb.go	/^func init() {$/;"	f
+init	week9/benchmarks/multi_push/main.go	/^func init() {$/;"	f
+init	week9/benchmarks/push/main.go	/^func init() {$/;"	f
+init	week9/benchmarks/push_rooms/main.go	/^func init() {$/;"	f
+lg	week9/benchmarks/multi_push/main.go	/^	lg         *log.Logger$/;"	v
+main	lesson2/main.go	/^func main() {$/;"	f
+main	lesson2/main.go	/^package main$/;"	p
+main	lesson2/query.go	/^package main$/;"	p
+main	lesson3/albumServer.go	/^package main$/;"	p
+main	lesson3/main.go	/^func main() {$/;"	f
+main	lesson3/main.go	/^package main$/;"	p
+main	lesson3/parallize.go	/^package main$/;"	p
+main	lesson3/reserver.go	/^package main$/;"	p
+main	week8/main.go	/^func main() {$/;"	f
+main	week8/main.go	/^package main$/;"	p
+main	week9/benchmarks/client/main.go	/^func main() {$/;"	f
+main	week9/benchmarks/client/main.go	/^package main$/;"	p
+main	week9/benchmarks/multi_push/main.go	/^func main() {$/;"	f
+main	week9/benchmarks/multi_push/main.go	/^package main$/;"	p
+main	week9/benchmarks/push/main.go	/^func main() {$/;"	f
+main	week9/benchmarks/push/main.go	/^package main$/;"	p
+main	week9/benchmarks/push_room/main.go	/^func main() {$/;"	f
+main	week9/benchmarks/push_room/main.go	/^package main$/;"	p
+main	week9/benchmarks/push_rooms/main.go	/^func main() {$/;"	f
+main	week9/benchmarks/push_rooms/main.go	/^package main$/;"	p
+main	week9/main.go	/^func main() {$/;"	f
+main	week9/main.go	/^package main$/;"	p
+main	week9/tcp.go	/^package main$/;"	p
+nopEndpoint	week5/ratelimit/token_bucket_test.go	/^var nopEndpoint = func(context.Context, interface{}) (interface{}, error) { return struct{}{}, nil }$/;"	v
+opAuth	week9/benchmarks/client/main.go	/^	opAuth           = int32(7)$/;"	c
+opAuth	week9/main.go	/^	opAuth           = int32(7)$/;"	c
+opAuthReply	week9/benchmarks/client/main.go	/^	opAuthReply      = int32(8)$/;"	c
+opAuthReply	week9/main.go	/^	opAuthReply      = int32(8)$/;"	c
+opHeartbeat	week9/benchmarks/client/main.go	/^	opHeartbeat      = int32(2)$/;"	c
+opHeartbeat	week9/main.go	/^	opHeartbeat      = int32(2)$/;"	c
+opHeartbeatReply	week9/benchmarks/client/main.go	/^	opHeartbeatReply = int32(3)$/;"	c
+opHeartbeatReply	week9/main.go	/^	opHeartbeatReply = int32(3)$/;"	c
+parallize	lesson3/parallize.go	/^func parallize() {$/;"	f
+post	week9/benchmarks/push_room/main.go	/^func post(addr string, i int64) {$/;"	f
+postAlbums	lesson3/albumServer.go	/^func postAlbums(c *gin.Context) {$/;"	f
+protocol	week9/api/protocol/operation.go	/^package protocol$/;"	p
+protocol	week9/api/protocol/protocol.go	/^package protocol$/;"	p
+protocol	week9/api/protocol/protocol.pb.go	/^package protocol$/;"	p
+pushBodyMsg	week9/benchmarks/push/main.go	/^type pushBodyMsg struct {$/;"	t
+pushsBodyMsg	week9/benchmarks/multi_push/main.go	/^type pushsBodyMsg struct {$/;"	t
+ratelimit	week5/ratelimit/token_bucket.go	/^package ratelimit$/;"	p
+ratelimit_test	week5/ratelimit/token_bucket_test.go	/^package ratelimit_test$/;"	p
+rawHeaderLen	week9/benchmarks/client/main.go	/^	rawHeaderLen = uint16(16)$/;"	c
+rawHeaderLen	week9/main.go	/^	rawHeaderLen = uint16(16)$/;"	c
+result	week9/benchmarks/client/main.go	/^func result() {$/;"	f
+result	week9/main.go	/^func result() {$/;"	f
+run	week9/benchmarks/push_room/main.go	/^func run(addr string, delay time.Duration) {$/;"	f
+startClient	week9/benchmarks/client/main.go	/^func startClient(key int64) {$/;"	f
+startClient	week9/main.go	/^func startClient(key int64) {$/;"	f
+startPush	week9/benchmarks/multi_push/main.go	/^func startPush(b, e int) {$/;"	f
+startPush	week9/benchmarks/push/main.go	/^func startPush(b, e int) {$/;"	f
+startPush	week9/benchmarks/push_rooms/main.go	/^func startPush(b, e int, delay time.Duration) {$/;"	f
+stop	week9/benchmarks/multi_push/main.go	/^func stop() {$/;"	f
+stop	week9/benchmarks/push/main.go	/^func stop() {$/;"	f
+t	week9/benchmarks/multi_push/main.go	/^	t          int$/;"	v
+t	week9/benchmarks/push/main.go	/^	t          int$/;"	v
+tcpReadProto	week9/benchmarks/client/main.go	/^func tcpReadProto(rd *bufio.Reader, proto *Proto) (err error) {$/;"	f
+tcpReadProto	week9/main.go	/^func tcpReadProto(rd *bufio.Reader, proto *Proto) (err error) {$/;"	f
+tcpWriteProto	week9/benchmarks/client/main.go	/^func tcpWriteProto(wr *bufio.Writer, proto *Proto) (err error) {$/;"	f
+tcpWriteProto	week9/main.go	/^func tcpWriteProto(wr *bufio.Writer, proto *Proto) (err error) {$/;"	f
+templ	lesson3/reserver.go	/^var templ = template.Must(template.New("qr").Parse(templateStr))$/;"	v
+templateStr	lesson3/reserver.go	/^const templateStr = `$/;"	c
+testContent	week9/benchmarks/multi_push/main.go	/^const testContent = "{\\"test\\":1}"$/;"	c
+testContent	week9/benchmarks/push/main.go	/^const testContent = "{\\"test\\":1}"$/;"	c
+testContent	week9/benchmarks/push_rooms/main.go	/^const testContent = "{\\"test\\":1}"$/;"	c
+testSuccessThenFailure	week5/ratelimit/token_bucket_test.go	/^func testSuccessThenFailure(t *testing.T, e endpoint.Endpoint, failContains string) {$/;"	f
+xxx_messageInfo_Proto	week9/api/protocol/protocol.pb.go	/^var xxx_messageInfo_Proto proto.InternalMessageInfo$/;"	v
