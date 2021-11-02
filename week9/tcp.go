@@ -3,11 +3,13 @@ package main
 import (
 	"bufio"
 	"net"
+
+	log "github.com/golang/glog"
 )
 
 // Go 网络编程 - TCP 简单用例
 
-func TCP() {
+func ServeTCP() {
 	ln, err := net.Listen("tcp", "127.0.0.1:10000")
 	if err != nil {
 		log.Fatalf("listen error: %v\n", err)
@@ -39,3 +41,7 @@ func handleConn(conn net.Conn) {
 	wr.Write(line)
 	wr.Flush() // 一次性syscall
 }
+
+//
+
+//
